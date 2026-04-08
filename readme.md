@@ -23,10 +23,10 @@ It will turn your browser into a lightweight writing coach that will always be a
 ## 3. How it works (architecture)
 The app was built with Python, Flask, and SQLite. 
 
-- The User interface (UI 
-  - Implemented with HTML templates (`templates/` folder).  
-  - `index.html` provides a text area where you paste your writing and a button to request advice.  
-  - `history.html` shows previous analyses stored in the database.
+- The User interface 
+  - Built with HTML templates in the templates/ folder 
+  - `index.html` provides a text area to input and submit text
+  - `history.html` shows previous analyses that stored within the database 
 
 - Application Logic 
   - `app.py` defines the Flask application.  
@@ -40,7 +40,7 @@ The app was built with Python, Flask, and SQLite.
     - Renders them in a simple list.
 
 -Database  
-  - `models.py` defines a `WritingSample` model with:
+  - `models.py` defines the `WritingSample` model with:
     - `text`: the original user text.
     - `advice`: the feedback returned by the API.
     - `created_at`: timestamp of the analysis.
@@ -55,5 +55,13 @@ The app was built with Python, Flask, and SQLite.
     - Parse the JSON response and return the advice string.
    
 ## 4. Hosted on Github
-  - 
+  - under a MIT License
+  - can download a ZIP file of the code, or clone the file to make adjustments or modify the code to better suit your needs
+  - Contributions are welcome!
+
+## 5. Installation 
+  - Clone the repistory
+  - create a virtual environment
+  - install the dependencies
+  - run the application using flaks 
     
