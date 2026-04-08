@@ -63,5 +63,5 @@ The app was built with Python, Flask, and SQLite.
   - Clone the repistory
   - create a virtual environment
   - install the dependencies
-  - run the application using flaks 
+  - run the application using flask
     
